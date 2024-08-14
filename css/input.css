@@ -228,7 +228,7 @@ pointer-events: none;
 }
 /* scroll to top */
 /* intro section */
- @media (max-width:768px) {
+@media (max-width:768px) {
   .video-intro-services {
     /* width: 100%; */
     writing-mode: vertical-rl;
@@ -352,16 +352,17 @@ footer .aboutUS i {
 
 
 /* our team */
-.OrTeam  {
-  grid-template-columns: repeat(auto-fill , minmax(350px ,1fr));
+.OrTeam   {
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(150px ,1fr));
 }
 @media (max-width:1280px) {
   .OrTeam {
-  grid-template-columns: repeat(auto-fill , minmax(350px ,1fr));
+  grid-template-columns: repeat(auto-fill , minmax(150px ,1fr));
 }
 }
 @media (max-width:786px) {
   .OrTeam  {
-  grid-template-columns: repeat(auto-fill , minmax(200px ,1fr));
+  grid-template-columns: repeat(auto-fill , minmax(100px ,1fr));
   }
 } 

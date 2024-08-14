@@ -734,20 +734,20 @@ video {
   gap: 1rem;
 }
 
+.gap-8 {
+  gap: 2rem;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
 
-.rounded-full {
-  border-radius: 9999px;
-}
-
-.rounded {
-  border-radius: 0.25rem;
-}
-
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .bg-mainTrq {
@@ -1304,7 +1304,23 @@ footer .aboutUS i {
 
 /* video gallery */
 
-.OrTeam .person {
+/* our team */
+
+.OrTeam   {
+  display: grid;
+  grid-template-columns: repeat(auto-fill , minmax(150px ,1fr));
+}
+
+@media (max-width:1280px) {
+  .OrTeam {
+    grid-template-columns: repeat(auto-fill , minmax(150px ,1fr));
+  }
+}
+
+@media (max-width:786px) {
+  .OrTeam  {
+    grid-template-columns: repeat(auto-fill , minmax(100px ,1fr));
+  }
 }
 
 .hover\:text-orange:hover {
@@ -1434,4 +1450,4 @@ footer .aboutUS i {
   .lg\:border-r {
     border-right-width: 1px;
   }
-}
+} 
