@@ -242,6 +242,18 @@ pointer-events: none;
   } 
 }
 /* intro section */
+/* list style */
+.listDesc::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--mainTrq);
+  left:-20px;
+  top: 15px;
+  border-radius: 50%;
+  }
+/* list style */
 /* footer */
 footer .logoAndFollowUs i ,
 footer .aboutUS i {
@@ -366,3 +378,4 @@ footer .aboutUS i {
   grid-template-columns: repeat(auto-fill , minmax(100px ,1fr));
   }
 } 
+
