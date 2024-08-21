@@ -253,6 +253,17 @@ pointer-events: none;
   top: 15px;
   border-radius: 50%;
   }
+.listDesc-ar::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--mainTrq);
+  right:-20px;
+  top: 15px;
+  border-radius: 50%;
+  }
+
 /* list style */
 /* footer */
 footer .logoAndFollowUs i ,
