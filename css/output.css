@@ -792,6 +792,10 @@ video {
   border-radius: 9999px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .bg-mainTrq {
   --tw-bg-opacity: 1;
   background-color: rgb(51 153 153 / var(--tw-bg-opacity));
